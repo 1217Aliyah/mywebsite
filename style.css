@@ -293,28 +293,7 @@ style
           box-sizing: border-box;
         }
 
-        /* Responsive Layout for Tablets/Mobile Devices */
-        @media (max-width: 768px){
-            .video-grid {
-                grid-template-columns: 1fr; 
-            }
-            .nav-container {
-                justify-content: center; 
-                padding: 10px 0;
-                gap: 10px;
-            }
-            .nav-container a {
-                padding: 6px 12px;
-                font-size: 13px;
-            }
-            .section-title {
-                font-size: 32px;
-            }
-            .video-wrapper-outer {
-                padding: 15px;
-            }
-            }
-          /*footer copyright*/
+           /*footer copyright*/
            .full-footer{
              width: 100%
              position: relative;
@@ -339,7 +318,28 @@ style
             font-family: sans-serif;
             text-decoration: none;
            }
-        
+        /* Responsive Layout for Tablets/Mobile Devices */
+        @media (max-width: 768px){
+            .video-grid {
+                grid-template-columns: 1fr; 
+            }
+            .nav-container {
+                justify-content: center; 
+                padding: 10px 0;
+                gap: 10px;
+            }
+            .nav-container a {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+            .section-title {
+                font-size: 32px;
+            }
+            .video-wrapper-outer {
+                padding: 15px;
+            }
+            }
+          
         /*----ABOUT ME SECTION PAGE*----/
 
         /* ==== Split Screen Workspace Flexbox ==== */
